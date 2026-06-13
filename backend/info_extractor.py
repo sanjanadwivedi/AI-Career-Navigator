@@ -1,34 +1,44 @@
 import re
 
+
 def extract_email(text):
 
-    emails = re.findall(
-        r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}',
-        text
-    )
+    pattern = r'[\w\.-]+@[\w\.-]+\.\w+'
 
-    return emails[0] if emails else None
+    match = re.search(pattern, text)
+
+    if match:
+        return match.group()
+
+    return ""
 
 
 def extract_phone(text):
 
-    phones = re.findall(
-        r'\b\d{10}\b',
-        text
-    )
+    pattern = r'(\+91[- ]?)?[6-9]\d{9}'
 
-    return phones[0] if phones else None
+    match = re.search(pattern, text)
+
+    if match:
+        return match.group()
+
+    return ""
 
 
 def extract_name(text):
 
     lines = text.split("\n")
 
-    for line in lines:
+    for line in lines[:15]:
 
         line = line.strip()
 
-        if len(line.split()) >= 2 and len(line) < 40:
-            return line
+        if (
+            len(line) > 3
+            and len(line.split()) <= 4
+            and "@" not in line
+            and not any(char.isdigit() for char in line)
+        ):
+            return line.upper()
 
-    return "Name Not Found"
+    return ""

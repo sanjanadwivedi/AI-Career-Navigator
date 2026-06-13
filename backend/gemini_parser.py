@@ -6,6 +6,7 @@ import re
 from dotenv import load_dotenv
 
 load_dotenv()
+print("API KEY:", os.getenv("GEMINI_API_KEY"))
 
 genai.configure(
     api_key=os.getenv("GEMINI_API_KEY")
@@ -94,6 +95,18 @@ Do not inflate scores.
 
 If GitHub or LinkedIn links are not found,
 return null instead of an empty string.
+
+For name extraction:
+
+- Extract the candidate's full name only.
+- Do NOT include words like:
+  I
+  I'm
+  I am
+  My
+  Myself
+
+Return only the actual candidate name.
 
 Return JSON in this format:
 
