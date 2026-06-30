@@ -24,10 +24,53 @@ SKILL_ALIASES = {
         "Transformers",
         "Generative AI"
     ],
+    "LangChain": [
+    "langchain",
+    "retrieval",
+    "agent"
+],
+    "Scikit-learn": [
+    "Scikit-learn",
+    "Sklearn"
+],
+"Deep Learning": [
+    "Neural Networks",
+    "Deep Learning"
+],
+"Data Annotation & Labeling": [
+    "annotation",
+    "labeling",
+    "annotated",
+    "labelled",
+    "dataset annotation"
+],
 
-    "Deep Learning": [
-        "Neural Networks"
-    ]
+"Data Quality Control": [
+    "quality control",
+    "quality assurance",
+    "validation",
+    "data validation",
+    "evaluation"
+],
+
+"Data Preprocessing": [
+    "data preprocessing",
+    "preprocessing",
+    "data cleaning",
+    "cleaning",
+    "normalisation",
+    "normalization",
+    "pipeline",
+    "data pipeline"
+],
+
+"Attention to Detail": [
+    "accuracy",
+    "attention to detail",
+    "quality",
+    "consistency",
+    "error detection"
+]
 }
 
 ROLE_DATABASE = {
@@ -72,8 +115,15 @@ ROLE_DATABASE = {
     "Data Annotation & Labeling",
     "Data Quality Control",
     "Data Preprocessing",
-    "Attention to Detail"
-]
+    "Attention to Detail"],
+    
+    "Machine Learning Engineer": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "Statistics",
+    "SQL",
+    "Scikit-learn"]
 }
 
 
@@ -96,7 +146,6 @@ def calculate_match(user_skills, target_role):
         for alias in aliases
         for user_skill in user_skills)
         
-        print(f"Checking: {skill} -> {found}")
         if found:
             matched_skills.append(skill)
         else:

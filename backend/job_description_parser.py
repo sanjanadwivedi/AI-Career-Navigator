@@ -2,7 +2,7 @@ import json
 import re
 import hashlib
 
-from openai_client import client
+from ai.openai_client import client
 
 jd_cache = {}
 
@@ -57,7 +57,6 @@ Return exactly:
 
         print("\n===== OPENAI JD RESPONSE =====")
         print(text)
-        print("==============================\n")
 
         text = re.sub(
             r"```json",
