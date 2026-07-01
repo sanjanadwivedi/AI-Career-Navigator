@@ -47,5 +47,3 @@ if __name__ == "__main__":
     }
 
     result = generate_career_match(sample)
-
-    print(result)

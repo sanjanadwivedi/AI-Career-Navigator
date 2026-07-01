@@ -41,17 +41,7 @@ def get_jobs_by_role(role):
         job_analysis = parse_job_description(
     description
 )
-        print(
-    "JOB:",
-    item.get("job_title")
-)
-        print(
-    "EXTRACTED SKILLS:",
-    job_analysis.get(
-        "required_skills",
-        []
-    )
-)
+        
         jobs.append({
     "title": item.get("job_title"),
     "company": item.get("employer_name"),

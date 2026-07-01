@@ -89,28 +89,32 @@ async def upload_resume(file: UploadFile = File(...)):
 
     # Extract text from resume
     text = extract_text(file_path)
-
-    # Gemini Analysis
+    # AI Resume Analysis
     resume_analysis = parse_resume_with_openai(text)
+
     ats_result = calculate_ats_score(
-    resume_analysis
-)
-    rule_based_ats = ats_result["score"]
-    resume_analysis["ats_breakdown"] = (
-    ats_result["breakdown"]
-)
-    gemini_ats = resume_analysis.get("ats_score")
-    if isinstance(gemini_ats, (int, float)):
-        final_ats = round(
-        (0.7 * rule_based_ats) +
-        (0.3 * gemini_ats)
+        resume_analysis
     )
+
+    rule_based_ats = ats_result["score"]
+
+    resume_analysis["ats_breakdown"] = (
+        ats_result["breakdown"]
+    )
+
+    ai_ats = resume_analysis.get("ats_score")
+
+    if isinstance(ai_ats, (int, float)):
+        final_ats = round(
+            (0.7 * rule_based_ats) +
+            (0.3 * ai_ats)
+        )
     else:
         final_ats = rule_based_ats
-    resume_analysis["ats_score"] = final_ats
-    print(resume_analysis)
 
-    # Override Gemini values with regex extraction
+    resume_analysis["ats_score"] = final_ats
+
+    # Override AI-extracted contact details with regex
     resume_analysis["name"] = extract_name(text)
     resume_analysis["email"] = extract_email(text)
     resume_analysis["phone"] = extract_phone(text)
@@ -370,8 +374,6 @@ async def job_recommendations(
         "role": request.role,
         "jobs": jobs
     }
-class RoadmapRequest(BaseModel):
-    skills: list[str]
 
 
 @app.post("/generate-roadmap")

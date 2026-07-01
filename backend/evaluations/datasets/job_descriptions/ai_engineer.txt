@@ -1,0 +1,26 @@
+Requirment
+At least 3 years of experience putting Machine Learning models into production.
+MLOps tools: Experience using Mlflow or similar tools for lifecycle management of machine learning models.
+Docker: Experience in using Docker to create reproducible and scalable environments.
+Machine Learning Models: Advanced knowledge in Machine Learning models and Large Language Models (LLM), using langchain or a similar tool.
+LLM Implementation: Experience in implementing LLMs using vector bases and Retrieval-Augmented Generation (RAG), as well as tuning models. Using GPTs, Llama, or any other LLM
+Solution Architecture Validation: Ability to perform solution architecture validations for LLMs. GenAIOps: Experience in putting Generative AI (GENAI) models into production and providing support to them.
+Experience with Cloud Computing: Familiarity with cloud computing platforms such as AWS, Google Cloud, or Azure for model deployment and scaling.
+Software Engineering Skills: The ability to write clean, efficient, and reusable code is essential in MLOps roles.
+Experience with APIs: Experience in developing and using APIs can be useful for integrating models into existing applications.
+
+Job Types: Full-time, Contract
+
+Pay: $42.24 - $70.00 per hour
+
+Benefits:
+401(k)
+Dental insurance
+Health insurance
+Experience level:
+10 years
+11+ years
+8 years
+9 years
+Schedule:
+8 hour Location: Remote

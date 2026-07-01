@@ -134,10 +134,6 @@ def calculate_match(user_skills, target_role):
     matched_skills = []
     missing_skills = []
 
-    user_skills_lower = [
-        skill.lower()
-        for skill in user_skills
-    ]
 
     for skill in required_skills:
         aliases = SKILL_ALIASES.get(skill, [skill])

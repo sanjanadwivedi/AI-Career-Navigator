@@ -1,0 +1,46 @@
+Key Highlights
+
+Product-based, high growth, Sydney founded, global tech company
+Design and develop market-leading software solutions
+
+An exciting full-time permanent opportunity for Senior Software Engineers to join a high-growth, product-based, global tech company. You will be leading a global team of developers in designing and developing market-leading software solutions used by 18K+ logistics organizations across 165 countries.
+
+At WiseTech Global, we build the best and the leading technology solutions that enable the world's biggest logistic companies to move goods globally. Our industry-leading flagship product, CargoWise centralizes logistics operations on a single global database, delivering business continuity, scalability, and security.
+
+How you will make an impact
+
+As a Senior Software Engineer, you are a mentor, a leader, and an expert in your craft. You can communicate effectively with senior management and executive-level people in terms of strategic goals. Working in continuous delivery and automated deployment environment, we ship 3500 upgrades a week. We practice Test Driven Development and place quality at the core of our engineering practice.
+
+As Senior Engineer, you will ensure the quality of work delivered by the team
+You are seen as a mentor and you will provide technical guidance and leadership
+You will iterate, test, design, and deliver quality code to enable the world's supply chain.
+Make recommendations for the technical direction of software based on current and future technological advances and trends You enjoy solving complex technical problems, utilizing different technology, and collaborating with a global team of developers
+
+What we are looking for
+
+Problem-solving skills, curiosity, and passion are the key skills we look for in our Engineers, but for your interest, some of the technology you can expect to work on will be:
+
+.Net, C#, SQL Server
+Web development technologies, including MVC, jQuery, AJAX, CSS/HTML5, - Vue/Angular/React, etc.
+Continuous Delivery, using tools such as Git, Jenkins, PowerShell, etc.
+Quality assurance processes and tools, including unit testing frameworks (MSTest, nUnit), automated testing tools (Selenium), static code analysis tools and performance-testing toolkits
+
+Benefits
+
+We invest heavily in our people from day one and place our developers are the heart of our business. We have a range of benefits including:
+
+Competitive remuneration package + equity
+Development opportunities - LinkedIn learning, mentorship, technical rotation, education assistance
+Employee assistance program - 24/7 resources, support & information
+
+About WiseTech Global
+
+WiseTech Global is now an ASX 50, AU$15 billion+ company that is serious about expansion and technical innovation. Our mission is to change the world by creating breakthrough products that empower those who own, enable, and operate the supply chains of the world. Find out more at WiseTech Global.
+
+Before you Apply
+
+From time to time, WiseTech Global may use external service providers to assist us with assessing applications, including background checks, on our behalf. Accordingly, by applying for this role and providing your personal information to WiseTech Global, you consent to WiseTech Global providing this information to our external service providers who are required to treat such information with strict confidentiality in line with privacy and data protection laws and regulations.
+
+Job Types: Full-time, Permanent
+
+Salary: ₹1,500,000.00 - ₹3,500,000.00 per to Friday

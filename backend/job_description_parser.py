@@ -13,7 +13,6 @@ def parse_job_description(job_description):
     ).hexdigest()
 
     if cache_key in jd_cache:
-        print("Using cached JD")
         return jd_cache[cache_key]
 
     prompt = f"""
@@ -55,8 +54,6 @@ Return exactly:
 
         text = response.choices[0].message.content
 
-        print("\n===== OPENAI JD RESPONSE =====")
-        print(text)
 
         text = re.sub(
             r"```json",
@@ -75,10 +72,6 @@ Return exactly:
         )
 
         jd_cache[cache_key] = result
-
-        print("\n===== NORMALIZED JD =====")
-        print(result)
-        print("========================\n")
 
         return result
 

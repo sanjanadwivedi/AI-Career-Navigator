@@ -1,0 +1,212 @@
+[
+  {
+    "resume": "resume10_ai-engineer.pdf",
+    "status": "PASS",
+    "response_time": 28.24,
+    "ats_score": 98,
+    "recommended_roles": [
+      "Staff Software Engineer (Python/Cloud)",
+      "AI/ML Solutions Architect",
+      "Lead Data Engineer",
+      "Product Engineer (AI/GenAI Platforms)",
+      "Security Automation Architect"
+    ],
+    "experience_level": "Senior",
+    "skills_count": 65,
+    "projects_count": 3,
+    "experience_count": 4,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 1,
+    "missing_skills_count": 1
+  },
+  {
+    "resume": "resume1_python-developer.pdf",
+    "status": "PASS",
+    "response_time": 27.09,
+    "ats_score": 65,
+    "recommended_roles": [
+      "Python Web Developer",
+      "Backend Developer",
+      "Data Analyst",
+      "Machine Learning Engineer",
+      "Full Stack Developer"
+    ],
+    "experience_level": "Mid-level",
+    "skills_count": 9,
+    "projects_count": 0,
+    "experience_count": 2,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 3,
+    "missing_skills_count": 3
+  },
+  {
+    "resume": "resume2_data-analyst-fresher.pdf",
+    "status": "PASS",
+    "response_time": 33.34,
+    "ats_score": 84,
+    "recommended_roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Junior Data Scientist",
+      "Reporting Analyst",
+      "Data Engineer (Entry Level)"
+    ],
+    "experience_level": "Intern",
+    "skills_count": 14,
+    "projects_count": 2,
+    "experience_count": 1,
+    "education_present": true,
+    "strengths_count": 4,
+    "weaknesses_count": 3,
+    "missing_skills_count": 3
+  },
+  {
+    "resume": "resume3_machine-learning.pdf",
+    "status": "PASS",
+    "response_time": 24.34,
+    "ats_score": 74,
+    "recommended_roles": [
+      "Machine Learning Engineer",
+      "Data Scientist",
+      "AI/ML Research Engineer",
+      "Computer Vision Engineer",
+      "NLP Engineer"
+    ],
+    "experience_level": "Mid-level",
+    "skills_count": 16,
+    "projects_count": 0,
+    "experience_count": 3,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 2,
+    "missing_skills_count": 2
+  },
+  {
+    "resume": "resume4_business-analytics.pdf",
+    "status": "PASS",
+    "response_time": 42.38,
+    "ats_score": 84,
+    "recommended_roles": [
+      "Business Analyst",
+      "Data Analyst",
+      "Sales Analyst",
+      "Financial Analyst",
+      "Business Intelligence Analyst"
+    ],
+    "experience_level": "Intern",
+    "skills_count": 11,
+    "projects_count": 3,
+    "experience_count": 4,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 3,
+    "missing_skills_count": 3
+  },
+  {
+    "resume": "resume5_data-scientist.pdf",
+    "status": "PASS",
+    "response_time": 32.08,
+    "ats_score": 81,
+    "recommended_roles": [
+      "Data Scientist",
+      "Machine Learning Engineer",
+      "Data Engineer",
+      "AI/ML Solutions Architect",
+      "Computer Vision Engineer"
+    ],
+    "experience_level": "Mid-level",
+    "skills_count": 33,
+    "projects_count": 0,
+    "experience_count": 4,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 2,
+    "missing_skills_count": 2
+  },
+  {
+    "resume": "resume6_hr.pdf",
+    "status": "PASS",
+    "response_time": 25.83,
+    "ats_score": 74,
+    "recommended_roles": [
+      "Chief Human Resources Officer (CHRO)",
+      "Vice President of Human Resources",
+      "Director of Talent Management",
+      "Head of Organizational Development",
+      "HR Business Partner (Executive Level)"
+    ],
+    "experience_level": "Senior",
+    "skills_count": 14,
+    "projects_count": 0,
+    "experience_count": 6,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 2,
+    "missing_skills_count": 2
+  },
+  {
+    "resume": "resume7_freshers.pdf",
+    "status": "PASS",
+    "response_time": 18.76,
+    "ats_score": 61,
+    "recommended_roles": [
+      "Retail Sales Assistant",
+      "Customer Service Representative",
+      "Sports Shop Assistant",
+      "Cashier",
+      "Recreation Assistant"
+    ],
+    "experience_level": "Entry-level",
+    "skills_count": 6,
+    "projects_count": 0,
+    "experience_count": 2,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 3,
+    "missing_skills_count": 3
+  },
+  {
+    "resume": "resume8_software-engineer.pdf",
+    "status": "PASS",
+    "response_time": 23.44,
+    "ats_score": 99,
+    "recommended_roles": [
+      "Senior Backend Engineer",
+      "Full Stack Engineer",
+      "DevOps Engineer",
+      "Cloud Solutions Architect",
+      "Technical Lead"
+    ],
+    "experience_level": "Senior",
+    "skills_count": 22,
+    "projects_count": 5,
+    "experience_count": 5,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 2,
+    "missing_skills_count": 2
+  },
+  {
+    "resume": "resume9_ai-engineer.pdf",
+    "status": "PASS",
+    "response_time": 33.37,
+    "ats_score": 97,
+    "recommended_roles": [
+      "Lead Machine Learning Engineer",
+      "Principal Data Scientist",
+      "AI Solutions Architect",
+      "Generative AI Product Manager",
+      "Director of AI/ML Engineering"
+    ],
+    "experience_level": "Senior",
+    "skills_count": 33,
+    "projects_count": 8,
+    "experience_count": 6,
+    "education_present": true,
+    "strengths_count": 5,
+    "weaknesses_count": 2,
+    "missing_skills_count": 2
+  }
+]

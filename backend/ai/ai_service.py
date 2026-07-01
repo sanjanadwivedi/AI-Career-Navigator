@@ -1,17 +1,9 @@
 import logging
 
 from openai import APIError, APITimeoutError, RateLimitError
-from ai.guardrails import validate_prompt
+
 from ai.openai_client import client
-
-logger = logging.getLogger(__name__)
-
-import logging
-
-from openai import APIError, APITimeoutError, RateLimitError
-
 from models.ai_response import AIResponse
-from ai.openai_client import client
 
 logger = logging.getLogger(__name__)
 
@@ -34,8 +26,7 @@ def generate(
 
         if response_format:
             kwargs["response_format"] = response_format
-        
-        # Validate the last user message
+
         response = client.chat.completions.create(**kwargs)
 
         usage = response.usage
