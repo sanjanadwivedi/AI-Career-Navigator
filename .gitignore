@@ -1,7 +1,23 @@
-.env
-venv/
+# Python
 __pycache__/
-uploads/
-backend/uploads/
-*.pdf
 *.pyc
+*.pyo
+
+# Environment
+.env
+.venv/
+venv/
+
+# Uploads
+uploads/
+
+# Evaluation outputs
+evaluations/results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
