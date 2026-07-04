@@ -1,18 +1,25 @@
 # 🚀 AI Career Navigator – Backend
 
-> FastAPI backend powering the AI Career Navigator platform with AI-powered resume analysis, ATS scoring, job matching, career coaching, roadmap generation, and PDF report generation.
+<p align="center">
+  <strong>FastAPI backend powering an AI-driven career development platform.</strong><br>
+  Resume Analysis • ATS Scoring • Job Matching • AI Career Coach • Roadmaps
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.136-green?logo=fastapi)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT-black?logo=openai)
-![Render](https://img.shields.io/badge/Deployment-Render-46E3B7)
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009688?logo=fastapi&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?logo=openai&logoColor=white)
+![Render](https://img.shields.io/badge/Render-Deployed-46E3B7?logo=render)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+
+</p>
 
 ---
 
 # 🌐 Live Application
 
-### 🚀 Frontend
+### 🎯 Frontend
 
 https://beam-jobs-nine.vercel.app
 
@@ -22,11 +29,11 @@ https://ai-career-navigator-xwex.onrender.com
 
 ---
 
-# 📌 Overview
+# 📌 About
 
-AI Career Navigator is an AI-powered career guidance platform designed to help students and professionals improve their resumes, identify skill gaps, match jobs, receive AI career guidance, and generate personalized career roadmaps.
+AI Career Navigator is an AI-powered career development platform designed to help students and professionals improve their resumes, identify skill gaps, match jobs with their profiles, receive personalized AI career guidance, and generate structured learning roadmaps.
 
-This repository contains the **FastAPI backend** that powers all AI functionalities.
+This repository contains the **FastAPI backend** responsible for all AI processing and business logic.
 
 ---
 
@@ -34,10 +41,10 @@ This repository contains the **FastAPI backend** that powers all AI functionalit
 
 - 📄 Resume Parsing
 - 🎯 ATS Score Calculation
-- 💼 Resume & Job Matching
+- 💼 Resume vs Job Matching
 - 🤖 AI Career Coach
-- 🛣 AI Roadmap Generator
-- ✍ Resume Tailoring
+- 🛣 Personalized Career Roadmaps
+- ✍ AI Resume Tailoring
 - 📑 PDF Report Generation
 - 📊 Langfuse AI Monitoring
 - ⚡ REST API
@@ -46,40 +53,42 @@ This repository contains the **FastAPI backend** that powers all AI functionalit
 
 # 🛠 Tech Stack
 
-- Python 3.11
-- FastAPI
-- OpenAI GPT
-- Langfuse
-- PyMuPDF
-- ReportLab
-- Uvicorn
-- Render
+| Category          | Technologies |
+| ----------------- | ------------ |
+| Language          | Python 3.11  |
+| Framework         | FastAPI      |
+| AI                | OpenAI GPT   |
+| Monitoring        | Langfuse     |
+| PDF Processing    | PyMuPDF      |
+| Report Generation | ReportLab    |
+| Server            | Uvicorn      |
+| Deployment        | Render       |
 
 ---
 
-# 🏗 System Architecture
+# 🏗 Architecture
 
 ```text
-                    AI Career Navigator
+                     AI Career Navigator
 
-           React + TypeScript Frontend
-                     │
-                     ▼
-               FastAPI Backend
-                     │
-      ┌──────────────┼───────────────┐
-      │              │               │
- Resume Parser   ATS Engine   Career Coach
-      │              │               │
-      ├──────────────┼───────────────┤
-      │              │               │
- Job Matcher   Roadmap Generator PDF Generator
-                     │
-                     ▼
-                OpenAI GPT API
-                     │
-                     ▼
-                  Langfuse Logs
+              React + TypeScript Frontend
+                        │
+                        ▼
+                 FastAPI REST Backend
+                        │
+      ┌─────────────────┼─────────────────┐
+      │                 │                 │
+ Resume Parser      ATS Engine      Career Coach
+      │                 │                 │
+      ├─────────────────┼─────────────────┤
+      │                 │                 │
+ Job Matcher     Resume Tailor     Roadmap Generator
+                        │
+                        ▼
+                   OpenAI GPT API
+                        │
+                        ▼
+                    Langfuse Logs
 ```
 
 ---
@@ -97,9 +106,9 @@ backend/
 ├── uploads/
 │
 ├── main.py
+├── ats_scorer.py
 ├── career_matcher.py
 ├── job_search.py
-├── ats_scorer.py
 ├── pdf_generator.py
 ├── requirements.txt
 ├── Procfile
@@ -110,18 +119,18 @@ backend/
 
 # 🔗 API Endpoints
 
-| Endpoint           | Description            |
-| ------------------ | ---------------------- |
-| `/`                | Health Check           |
-| `/resume-analysis` | Analyze Resume         |
-| `/job-match`       | Resume vs Job Matching |
-| `/career-coach`    | AI Career Guidance     |
-| `/roadmap`         | Personalized Roadmap   |
-| `/tailor-resume`   | Resume Tailoring       |
+| Endpoint           | Description                        |
+| ------------------ | ---------------------------------- |
+| `/`                | Health Check                       |
+| `/resume-analysis` | Analyze uploaded resume            |
+| `/job-match`       | Resume vs Job Description matching |
+| `/career-coach`    | AI-powered career guidance         |
+| `/roadmap`         | Personalized career roadmap        |
+| `/tailor-resume`   | Resume optimization                |
 
 ---
 
-# 🚀 Run Locally
+# 🚀 Running Locally
 
 ```bash
 git clone https://github.com/sanjanadwivedi/AI-Career-Navigator.git
@@ -142,15 +151,27 @@ uvicorn main:app --reload
 
 # 🌐 Frontend
 
-The complete user interface is available here:
+The complete frontend implementation, UI screenshots and source code are available here.
 
-**Frontend Repository**
+### Live Demo
+
+https://beam-jobs-nine.vercel.app
+
+### Frontend Repository
 
 https://github.com/sanjanadwivedi/beam-jobs
 
-**Live Demo**
+---
 
-https://beam-jobs-nine.vercel.app
+# 🚀 Future Improvements
+
+- User Authentication
+- Resume History
+- AI Mock Interviews
+- Skill Gap Analytics
+- Company-specific Resume Optimization
+- Job Recommendation Engine
+- Multi-language Support
 
 ---
 
@@ -158,8 +179,8 @@ https://beam-jobs-nine.vercel.app
 
 **Sanjana Dwivedi**
 
-Computer Science Undergraduate | AI & Data Analytics Enthusiast
+Computer Science Undergraduate • AI & Data Analytics Enthusiast
 
 ---
 
-⭐ If you found this project useful, consider giving the repository a star!
+⭐ If you found this project useful, consider giving it a star.
